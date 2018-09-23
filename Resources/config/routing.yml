@@ -1,0 +1,3 @@
+app_contact_create:
+    path:     /create
+    defaults: { _controller: 'PuzzleAppContactBundle:Contact:create' }
