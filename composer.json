@@ -28,11 +28,10 @@
 		"webundle/puzzle-admin-contact" : "^1.0"
 	},
 	"autoload" : {
-		"psr-0" : {
-			"Webundle\\Puzzle\\App\\ContactBundle" : ""
+		"psr-4" : {
+			"Puzzle\\App\\ContactBundle\\" : ""
 		}
 	},
-	"target-dir" : "Webundle/Puzzle/App/ContactBundle",
 	"extra" : {
 		"branch-alias" : {
 			"dev-master" : "1.0-dev"
